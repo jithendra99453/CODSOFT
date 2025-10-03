@@ -1,0 +1,96 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; 
+}
+
+body > div {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+}
+
+#display {
+    display: block; 
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+    font-size: 2.5em;
+    text-align: right;
+    padding: 20px;
+    box-sizing: border-box; 
+    border-radius: 5px;
+    margin-bottom: 20px;
+    min-height: 70px; 
+}
+
+#calc {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+#calc td {
+    padding: 5px;
+}
+
+#calc button {
+    width: 100%;
+    height: 60px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#calc button:active {
+    box-shadow: none;
+    transform: translateY(2px);
+}
+
+.btn {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.btn:hover {
+    background-color: #e9e9e9;
+}
+
+#btnadd, #btn-, #btn\*, #btn\/ {
+    background-color: #f09a36; 
+    color: white;
+}
+
+#btnadd:hover, #btn-:hover, #btn\*:hover, #btn\/:hover {
+    background-color: #e08926;
+}
+
+#btn\= {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+#btn\=:hover {
+    background-color: #45a049;
+}
+
+
+#btnAC {
+    background-color: #d9534f; 
+    color: white;
+}
+
+#btnAC:hover {
+    background-color: #c9302c;
+}
+
